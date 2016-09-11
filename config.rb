@@ -41,6 +41,12 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  activate :sprockets
+  # Use relative URLs
+  activate :relative_assets
+
+  # Add asset fingerprinting to avoid cache issues
+  activate :asset_hash
 end
 
 activate :deploy do |deploy|

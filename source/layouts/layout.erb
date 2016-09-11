@@ -11,7 +11,21 @@
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
     <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+
+    <%= javascript_include_tag "flatlove/core/jquery/jquery.js" %>
+    <%= javascript_include_tag "flatlove/core/bootstrap/bootstrap.js" %>
+    <%= javascript_include_tag "flatlove/plugins/counterup.min.js" %>
+    <%= javascript_include_tag "flatlove/plugins/countdown.min.js" %>
+    <%= javascript_include_tag "flatlove/plugins/waypoints.min.js" %>
+    <%= javascript_include_tag "flatlove/plugins/wow.min.js" %>
+    <%= javascript_include_tag "flatlove/plugins/validator.min.js" %>
+    <%= javascript_include_tag "flatlove/plugins/owlcarousel.min.js" %>
+    <%= javascript_include_tag "flatlove/plugins/parallax.min.js" %>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <%= javascript_include_tag "flatlove/plugins/gmap.js" %>
+    <%= javascript_include_tag "flatlove/plugins/retina.min.js" %>
+    <%= javascript_include_tag "flatlove/scripts.js" %>
+
   </head>
 
   <body class="<%= page_classes %>">
