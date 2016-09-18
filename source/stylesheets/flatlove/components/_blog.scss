@@ -61,13 +61,13 @@
 		color: $text-muted;
 		&:hover {
 			color: $brand-primary;
-		}		
+		}
 	}
 	.text-link {
 		@extend .hidden-sm, .hidden-xxs;
 	}
 	@include breakpoint(xs) { font-size: $font-size-h3; }
-	@include breakpoint(xxs) { padding-top: 30%; }	
+	@include breakpoint(xxs) { padding-top: 30%; }
 }
 
 /* Blog head
@@ -80,5 +80,5 @@
 ---------------------------- */
 .blog-image {
 	@extend .img-responsive;
-	@include transition(0.15s);
+	//@include transition(0.15s);
 }

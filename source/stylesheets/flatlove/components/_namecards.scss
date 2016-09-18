@@ -36,14 +36,14 @@
 	display: inline-block;
 	padding: 0;
 	top: -180px;
-	margin-bottom: -180px;	
+	margin-bottom: -180px;
 	background-color: $brand-primary;
 	overflow: hidden;
 	border-radius: 50%;
 	border: 13px solid $text-white;
-	> img { 
-		@include transition(0.15s); 
-	}
+	// > img {
+	// 	@include transition(0.15s);
+	// }
 	.social-links {
 		left: 10%; top: 10%;
 		position: absolute;
@@ -52,8 +52,8 @@
 		padding-top: 80px;
 		background: $bg-white;
 		border-radius: 50%;
-		> a { 
-			color: $text-color; 
+		> a {
+			color: $text-color;
 			> i { @include transition(0.15s); }
 			&:hover {
 				color: $brand-primary;
@@ -66,7 +66,7 @@
 	}
 	&:hover {
 		> img {
-			@include opacity(0.3); 
+			@include opacity(0.3);
 		}
 		.social-links {
 			@include scale(1.0);
@@ -89,4 +89,3 @@
 	background: transparent;
 	border: 0;
 }
-

@@ -21,14 +21,15 @@
 ---------------------------- */
 .countdown-item {
 	@include breakpoint(xxs) {
-		width: 50%; 
+		width: 50%;
 	}
 }
 
 /* Countdown time
 ---------------------------- */
-.countdown-time { 
+.countdown-time {
 	@extend .h1;
+	font-family: $font-family-sans-serif;
 	font-size: $font-size-h1*2;
 	color: $brand-primary;
 	text-align: center;
@@ -37,16 +38,16 @@
 	@include breakpoint(xxs) {
 		font-size: 50px;
 		margin-bottom: -25px;
-	}	
+	}
 }
 
 /* Countdown label
 ---------------------------- */
 .countdown-label {
 	@extend .text-uppercase;
-	display: block;	
+	display: block;
 	letter-spacing: 2px;
 	@include breakpoint(xxs) {
 		font-size: 12px;
-	}		
+	}
 }

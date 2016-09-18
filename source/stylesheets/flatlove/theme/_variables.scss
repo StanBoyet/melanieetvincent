@@ -42,6 +42,7 @@ $web-fonts-protocol:	  	"https";
 
 $font-family-sans-serif:  	"Open Sans", sans-serif;
 $font-family-serif:       	Georgia, "Times New Roman", Times, serif;
+$font-family-cursive:       Tangerine, cursive;
 
 $font-family-monospace:   	Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:        	$font-family-sans-serif;
@@ -66,7 +67,7 @@ $headings-font-family:    	"Cantata One", serif;
 $headings-font-weight:    	400;
 $headings-line-height:    	1.4;
 $headings-color:          	#666666;
-	
+
 
 // UTILITIES = Global basic helper variables
 // --------------------------------------------------

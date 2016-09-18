@@ -8,10 +8,11 @@
 	text-align: center;
 	.counter-value {
 		@extend .h2;
+		font-family: $font-family-sans-serif;
 		color: $text-white;
 		font-size: 4em;
-		line-height: 1em;		
-		margin: 0;	
+		line-height: 1em;
+		margin: 0;
 		@include breakpoint(xxs){
 			font-size: 38px !important;
 			text-align: center !important;
@@ -23,7 +24,7 @@
 		text-transform: uppercase;
 		@include breakpoint(xxs){
 			text-align: center;
-		}		
+		}
 	}
 	@include breakpoint(xxs){
 		display: block;
