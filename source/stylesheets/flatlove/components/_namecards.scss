@@ -41,9 +41,11 @@
 	overflow: hidden;
 	border-radius: 50%;
 	border: 13px solid $text-white;
-	// > img {
-	// 	@include transition(0.15s);
-	// }
+	> img {
+		// @include transition(0.15s);
+		width: 250px;
+		height: 250px;
+	}
 	.social-links {
 		left: 10%; top: 10%;
 		position: absolute;

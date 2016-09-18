@@ -20,7 +20,7 @@ section, .section {
 	&.padding-xs { padding: $padding-section-tiny  0; }
 	@include breakpoint(xxs) {
 		padding: $padding-section-small 0;
-	}	
+	}
 }
 
 /* Section backgrounds
@@ -37,24 +37,31 @@ section, .section {
 	&:before {
 		background-color: rgba($bg-primary, 0.85);
 		@include bg-parallax-overlay();
-	}		
+	}
 }
 
 /* Section header
 ---------------------------- */
+.rsvp {
+	.section-header {
+		.section-title {
+			color: whitesmoke;
+		}
+	}
+}
 .section-header {
-	@extend .row;	
+	@extend .row;
 	text-align: center;
 	&.text-left { text-align: left; }
 	&.text-right { text-align: right; }
 	position: relative;
 	margin: 0 0 $padding-section-small;
-	.section-title { 
+	.section-title {
 		@extend .h1;
 		margin: 0;
 		@include breakpoint(xxs) {
 			font-size: 24px;
-		}		
+		}
 	}
 	.section-lead {
 		font-size: $font-size-large;
@@ -62,7 +69,7 @@ section, .section {
 	}
 	@include breakpoint(xxs) {
 		margin-bottom: 25px;
-	}	
+	}
 }
 
 /* Section footer
@@ -73,6 +80,5 @@ section, .section {
 	.btn.btn-lg { margin-top: -80px; }
 	@include breakpoint(xxs) {
 		margin-top: 30px;
-	}	
+	}
 }
-
