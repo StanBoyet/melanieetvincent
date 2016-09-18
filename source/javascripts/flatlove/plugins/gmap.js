@@ -41,7 +41,7 @@ function initialize() {
   };
   var map = new google.maps.Map(document.getElementById('gmap'),
     mapOptions);
-  var image = 'images/flatlove/marker.png';
+  var image = document.getElementById('gmap').getAttribute('data-image-src');
   var myMarker = new google.maps.Marker({
       position: myLatLng,
       map: map,
