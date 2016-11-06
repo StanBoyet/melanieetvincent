@@ -19,27 +19,7 @@ title: Mariage de Mélanie & Vincent
 
 <!-- NAVBAR
 ============================================== -->
-<nav class="navbar navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#onepage-nav">
-        <i class="fa fa-bars"></i>
-      </button>
-      <a class="navbar-brand" href="index.html" title="FlatLove">
-        <img class="logo" alt="FlatBook" src="/images/flatlove/logo.png">
-      </a>
-    </div>
-    <div class="collapse navbar-collapse" id="onepage-nav">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#the-couple">Couple</a></li>
-        <li><a href="#wedding-events">Events</a></li>
-        <li><a href="#our-photos">Photos</a></li>
-        <li><a href="#rsvp">Rsvp</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<%= partial(:nav, :locals => { :root_path => '' }) %>
 
 <!-- HEADER
 ============================================== -->
@@ -430,7 +410,7 @@ title: Mariage de Mélanie & Vincent
     </div>
   </section>
 
-  <div class="section bg-white padding-sm">
+  <!-- <div class="section bg-white padding-sm">
     <div class="container">
       <div class="row text-center-xs">
         <div class="col-md-9 col-sm-7">
@@ -443,7 +423,7 @@ title: Mariage de Mélanie & Vincent
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
     <div class="gmap" id="gmap" data-image-src="images/flatlove/marker.png"></div>
 

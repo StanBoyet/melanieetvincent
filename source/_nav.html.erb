@@ -1,0 +1,37 @@
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#onepage-nav">
+        <i class="fa fa-bars"></i>
+      </button>
+      <!-- <a class="navbar-brand" href="index.html" title="FlatLove">
+        <img class="logo" alt="FlatBook" src="/images/flatlove/logo.png">
+      </a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="onepage-nav">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <%= link_to 'Home', '/' %>
+          <!-- <a href="index.html">Home</a> -->
+        </li>
+        <li>
+          <%= link_to 'Couple', root_path, :fragment => 'the-couple' %>
+          <!-- <a href="#the-couple">Couple</a> -->
+        </li>
+        <li>
+          <%= link_to 'Events', root_path, :fragment => 'wedding-events' %>
+          <!-- <a href="#wedding-events">Events</a> -->
+        </li>
+        <li>
+          <%= link_to 'Photos', root_path, :fragment => 'our-photos' %>
+          <!-- <a href="#our-photos">Photos</a> -->
+        </li>
+        <li>
+          <%= link_to 'Rsvp', root_path, :fragment => 'rsvp' %>
+          <!-- <a href="#rsvp">Rsvp</a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
