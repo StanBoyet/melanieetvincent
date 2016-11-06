@@ -12,23 +12,24 @@
 
     <%= stylesheet_link_tag :site %>
 
-    <%= javascript_include_tag "flatlove/core/jquery/jquery.js" %>
-    <%= javascript_include_tag "flatlove/core/bootstrap/bootstrap.js" %>
-    <%= javascript_include_tag "flatlove/plugins/counterup.min.js" %>
-    <%= javascript_include_tag "flatlove/plugins/countdown.min.js" %>
-    <%= javascript_include_tag "flatlove/plugins/waypoints.min.js" %>
-    <%= javascript_include_tag "flatlove/plugins/wow.min.js" %>
-    <%= javascript_include_tag "flatlove/plugins/validator.min.js" %>
-    <%= javascript_include_tag "flatlove/plugins/owlcarousel.min.js" %>
-    <%= javascript_include_tag "flatlove/plugins/parallax.min.js" %>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSEBvd--U4GemTh8t6wKQh7mN2LuiqaGU"></script>
-    <%= javascript_include_tag "flatlove/plugins/gmap.js" %>
-    <%= javascript_include_tag "flatlove/plugins/retina.min.js" %>
-    <%= javascript_include_tag "flatlove/scripts.js" %>
-
   </head>
 
   <body class="<%= page_classes %>">
     <%= yield %>
   </body>
+
+  <%= javascript_include_tag "flatlove/core/jquery/jquery.js" %>
+  <%= javascript_include_tag "flatlove/core/bootstrap/bootstrap.js" %>
+  <%= javascript_include_tag "flatlove/plugins/counterup.min.js" %>
+  <%= javascript_include_tag "flatlove/plugins/countdown.min.js" %>
+  <%= javascript_include_tag "flatlove/plugins/waypoints.min.js" %>
+  <%= javascript_include_tag "flatlove/plugins/wow.min.js" %>
+  <%= javascript_include_tag "flatlove/plugins/validator.min.js" %>
+  <%= javascript_include_tag "flatlove/plugins/owlcarousel.min.js" %>
+  <%= javascript_include_tag "flatlove/plugins/parallax.min.js" %>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSEBvd--U4GemTh8t6wKQh7mN2LuiqaGU"></script>
+  <%= javascript_include_tag "flatlove/plugins/gmap.js" %>
+  <%= javascript_include_tag "flatlove/plugins/retina.min.js" %>
+  <%= javascript_include_tag "flatlove/scripts.js" %>
+
 </html>
