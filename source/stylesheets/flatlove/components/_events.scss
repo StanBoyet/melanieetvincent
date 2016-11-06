@@ -56,7 +56,7 @@
 		margin-top: -15px;
 		@include breakpoint(xxs) {
 			display: none;
-		}				
+		}
 	}
 	&:hover {
 		> i {
@@ -83,4 +83,53 @@
 	@extend .panel-footer;
 	background: transparent;
 	border: 0;
+}
+
+.event-wrap.about-us {
+  .event-text {
+    text-align: left;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding-left: 1.3em;
+      &:before {
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em; /* same as padding-left set on li */
+        width: 1.3em; /* same as padding-left set on li */
+      }
+      &.couple {
+        &:before {
+          content: "\f004";
+        }
+      }
+      &.parents {
+        &:before {
+          content: "\f228";
+        }
+      }
+			&.home {
+        &:before {
+          content: "\f015";
+        }
+      }
+			&.tequila {
+        &:before {
+          content: "\f113";
+        }
+      }
+			&.male {
+        &:before {
+          content: "\f222";
+        }
+      }
+			&.female {
+        &:before {
+          content: "\f221";
+        }
+      }
+    }
+  }
 }
