@@ -6,7 +6,7 @@
 ---------------------------- */
 $web-fonts-protocol: "https";
 @include web-fonts(("Open Sans": ("400", "300")));
-@include web-fonts(("Cantata One": ("400", "700")));
+@include web-fonts(("Roboto": ("400", "700")));
 @include web-fonts(("Tangerine": ("700")));
 
 /* Text colors

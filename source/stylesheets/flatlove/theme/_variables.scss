@@ -63,7 +63,7 @@ $font-size-h6:            	$font-size-base;
 $line-height-base:        	1.8;
 $line-height-computed:    	floor(($font-size-base * $line-height-base)); // ~20px
 
-$headings-font-family:    	"Cantata One", serif;
+$headings-font-family:    	"Roboto", sans-serif;
 $headings-font-weight:    	400;
 $headings-line-height:    	1.4;
 $headings-color:          	#666666;
@@ -73,8 +73,8 @@ $headings-color:          	#666666;
 // --------------------------------------------------
 $padding-section-base:		100px;
 $padding-section-large:		($padding-section-base/2)+$padding-section-base;
-$padding-section-small:		($padding-section-base/2);
-$padding-section-tiny:		($padding-section-small/2);
+$padding-section-small:		($padding-section-base/5);
+$padding-section-tiny:		($padding-section-small/5);
 
 $padding-base-vertical:     6px;
 $padding-base-horizontal:   12px;
