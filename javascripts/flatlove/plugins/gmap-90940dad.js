@@ -2,8 +2,8 @@ function initialize() {
   var styles = [
     {
       stylers: [
-        { hue: "#B84746" },
-        { saturation: -150 }
+        // { hue: "#B84746" },
+        // { saturation: -150 }
       ]
     },{
       featureType: "road",
@@ -29,7 +29,7 @@ function initialize() {
   ];
   var styledMap = new google.maps.StyledMapType(styles,
     {name: "Styled Map"});
-  var myLatLng = new google.maps.LatLng(47.70775,-2.754304);
+  var myLatLng = new google.maps.LatLng(47.6424519,-2.646419);
   var mapOptions = {
     zoom: 14,
     center: myLatLng,
