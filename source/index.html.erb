@@ -2,21 +2,6 @@
 title: Mariage de Mélanie & Vincent
 ---
 
-
-<!-- LOADER
-============================================== -->
-<!-- <div id="preloader">
-  <div class="aligner">
-    <div class="spinner">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-      <div class="bar4"></div>
-      <div class="bar5"></div>
-    </div>
-  </div>
-</div> -->
-
 <!-- NAVBAR
 ============================================== -->
 <%= partial(:nav, :locals => { :root_path => '' }) %>
@@ -71,7 +56,6 @@ title: Mariage de Mélanie & Vincent
         <div class="col-xs-12">
           <h1 class="section-title">Le Couple</h1>
           <div class="separator"></div>
-          <p class="lead">Lorem ipsum eto dolor sit amet, consectetur elites adipiscing elit morbi volutpat nis molestie rutrum molestie vivamus in cursus dolor colupat eta simeo aenean mattis eto dolor</p>
         </div>
       </div>
       <div class="row">
@@ -80,11 +64,11 @@ title: Mariage de Mélanie & Vincent
             <div class="namecard-item">
               <div class="namecard-head">
                 <img class="img-responsive" src="/images/couple/gub.jpg" alt="...">
-                <div class="social-links">
+                <%#<div class="social-links">
                   <a class="pd-xs" href="#"><i class="fa fa-3x fa-facebook-square"></i></a>
                   <a class="pd-xs" href="#"><i class="fa fa-3x fa-twitter-square"></i></a>
                   <a class="pd-xs" href="#"><i class="fa fa-3x fa-linkedin-square"></i></a>
-                </div>
+                </div>%>
               </div>
               <div class="namecard-body">
                 <h3 class="no-mg">
@@ -92,12 +76,12 @@ title: Mariage de Mélanie & Vincent
                   <small class="text-muted">Le Marié</small>
                 </h3>
                 <div class="separator"></div>
-                <p class="font-large">Lorem ipsum eto dolor sit amet, consectetur elites adipiscing elit. Morbi volutpat
-                nis molestie rutrum molestie. Vivamus in cursus dolor aenean mattis</p>
+                <%#<p class="font-large">Lorem ipsum eto dolor sit amet, consectetur elites adipiscing elit. Morbi volutpat
+                nis molestie rutrum molestie. Vivamus in cursus dolor aenean mattis</p>%>
               </div>
-              <div class="namecard-foot">
+              <%#<div class="namecard-foot">
                 <img class="center-block" src="/images/flatlove/couple/signature_01.jpg" alt="...">
-              </div>
+              </div>%>
             </div>
           </div>
         </div>
@@ -106,11 +90,11 @@ title: Mariage de Mélanie & Vincent
             <div class="namecard-item">
               <div class="namecard-head">
                 <img class="img-responsive" src="/images/couple/mel.jpg" alt="...">
-                <div class="social-links">
+                <%#<div class="social-links">
                   <a class="pd-xs" href="#"><i class="fa fa-3x fa-facebook-square"></i></a>
                   <a class="pd-xs" href="#"><i class="fa fa-3x fa-twitter-square"></i></a>
                   <a class="pd-xs" href="#"><i class="fa fa-3x fa-linkedin-square"></i></a>
-                </div>
+                </div>%>
               </div>
               <div class="namecard-body">
                 <h3 class="no-mg">
@@ -118,15 +102,38 @@ title: Mariage de Mélanie & Vincent
                   <small class="text-muted">La Mariée</small>
                 </h3>
                 <div class="separator"></div>
-                <p class="font-large">Lorem ipsum eto dolor sit amet, consectetur elites adipiscing elit. Morbi volutpat
-                nis molestie rutrum molestie. Vivamus in cursus dolor aenean mattis</p>
+                <%#<p class="font-large">Lorem ipsum eto dolor sit amet, consectetur elites adipiscing elit. Morbi volutpat
+                nis molestie rutrum molestie. Vivamus in cursus dolor aenean mattis</p>%>
               </div>
-              <div class="namecard-foot">
+              <%#<div class="namecard-foot">
                 <img class="center-block" src="/images/flatlove/couple/signature_02.jpg" alt="...">
-              </div>
+              </div>%>
             </div>
           </div>
         </div>
+        
+        <br>
+        <br>
+        <br>
+
+        <p class="lead">Plus vraiment besoin de se présenter ! Après 8 ans à vous bassiner, rien de saurais mieux nous présenter que vos propres mots : </p>
+        
+        <blockquote>
+          À ses 18 ans, on a quitté un hippie jongleur aux cheveux longs, pour le retrouver un an plus tard au bras de Mélanie, tous les deux formants un brillant couple en 2è année de médecine. Comme quoi papy avait raison, l'armée ça mène à tout.
+          <footer>
+            <cite>
+              Stanislas Boyet
+            </cite>
+          </footer>
+        </blockquote> 
+        <blockquote>
+          Ils crurent partir à la guerre, ils ne trouvèrent que l'amour
+          <footer>
+            <cite>
+              César Dugast
+            </cite>
+          </footer>
+        </blockquote>
       </div>
     </div>
   </section>
@@ -166,53 +173,30 @@ title: Mariage de Mélanie & Vincent
     </div>
     <div class="container-fluid photo-carousel-wrap">
       <div class="owl-theme owl-carousel mg-b-lg" id="photo-carousel">
-        <div class="photo-item">
-          <img class="img-responsive" src="/images/couple/couple_01.jpg" alt="...">
-          <a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>
-        </div>
-        <div class="photo-item">
-          <img class="img-responsive" src="/images/couple/couple_02.jpg" alt="...">
-          <a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>
-        </div>
-        <div class="photo-item">
-          <img class="img-responsive" src="/images/couple/couple_03.jpg" alt="...">
-          <a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>
-        </div>
-        <div class="photo-item">
-          <img class="img-responsive" src="/images/couple/couple_04.jpg" alt="...">
-          <a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>
-        </div>
-        <div class="photo-item">
-          <img class="img-responsive" src="/images/couple/couple_05.jpg" alt="...">
-          <a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>
-        </div>
-        <div class="photo-item">
-          <img class="img-responsive" src="/images/couple/couple_06.jpg" alt="...">
-          <a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>
-        </div>
+        <% data.photos.each do |photo| %>
+          
+          <div class="photo-item">
+            <img class="img-responsive" src=<%=photo.path%> alt="...">
+            <%#<a class="title" href="#" data-toggle="modal" data-target=".gallery-modal">happy bride</a>%>
+          </div>
+
+        <% end %>
+        
       </div>
     </div>
     <div class="container text-block">
       <div class="row mg-t-lg mg-b-lg">
         <div class="col-md-6">
           <p class="text-justify">
-            <span class="dropcap">Ç</span>aecenas metus nisi, tincidunt quis enim eu, facilisis dignissim dolor. Praesent tincidunt dolor in suscipit facilisis. In egestas ex ultricies odio convallis vehicula. Donec ac lectus non lorem iaculis rhoncus. Nulla et metus nisl. Mauris ante nunc, aliquet ut enim ut, varius feugiat lacus. Aliquam sodales justo nec justo tincidunt vulputate. Nam lacinia justo eu turpis convallis, id porttitor mi pretium sed congue eto enim ut, varius feugiat lacus aliquam
+            <span class="dropcap">L</span>e voyage est un impondérable de notre histoire, c'est aussi autour de ça que l'on s'est construit. Ensemble ou (le plus souvent) avec nos amis, nous aurons vu un peu le monde : Canada, Londres, Budapes, Italie, Espagne, Martinique, et bien évidemment France et ses régions.
           </p>
         </div>
         <div class="col-md-6 hidden-xxs">
-          <p class="text-justify">auctor quis risus. Suspendisse condimentum consectetur urna, eget pretium felis. Vivamus at tortor sed elit mollis lacinia. Morbi scelerisque et ex egestas tincidunt. Mauris iaculis, mauris eu scelerisque fringilla, sem sapien aliquet magna, in tempus elit arcu sed purus. Nulla et metus nisl. Mauris ante nunc, aliquet ut enim ut, varius feugiat justo tincidunt vulputate. Nam lacinia justo eu turpis convallis sodales justo nec</p>
+          <p class="text-justify">Au gré de notre vie et de nos études, nous aurons découvert la Bretagne puis Bordeaux et Lyon pour enfin revenir à notre terre de coeur : Bordeaux (et son vignoble). Et ça ne s'arrêtera pas là, car si les vacances nous  emmènent au soleil, les missions nous feront surement voir du pays !</p>
         </div>
       </div>
     </div>
-    <!-- <div class="section-footer bg-light">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <a class="btn btn-primary btn-lg" href="#">Buy flatlove</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    
   </section>
 
   <div class="section bg-parallax" data-parallax="scroll" data-image-src="/images/couple/square_03.jpg">
@@ -224,13 +208,27 @@ title: Mariage de Mélanie & Vincent
         <div class="col-xs-12">
           <div class="owl-carousel owl-theme" id="quote-carousel">
             <div class="quote-item">
-              <blockquote>La bière, c'est cool ! – Gub</blockquote>
+              <blockquote>
+                « La prochaine fois ne baisse pas ta garde
+                <br>
+                devant une belle paire de grands yeux ! »
+                <br>
+                Philoctète dans "Hercules" – Vincent
+              </blockquote>
             </div>
             <div class="quote-item">
-              <blockquote>La bière, c'est vraiment cool. — Mélanie</blockquote>
+              <blockquote>
+                « Il n'est pas si moche une fois qu'on s'est habitué ! »
+                <br>
+                Tok, dans "Tarzan" — Mélanie
+              </blockquote>
             </div>
             <div class="quote-item">
-              <blockquote>MAIS LE RHUM, C'EST LA VIE. – Tequila</blockquote>
+              <blockquote>
+                « Vous voulez de l'amour ? Achetez un chien ! »
+                <br>
+                Daisy, dans "Les Trois Mousquetaires" – Tequila
+              </blockquote>
             </div>
           </div>
         </div>
@@ -244,9 +242,9 @@ title: Mariage de Mélanie & Vincent
         <div class="col-xs-12">
           <h1 class="section-title">Un brin d'histoire ...</h1>
           <div class="separator"></div>
-          <p class="lead">
+          <blockquote>
             Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer. Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu : et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent « Mais comment fais-tu pour avoir cette humanité ? », et bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi...
-          </p>
+          </blockquote>
         </div>
       </div>
       <div class="row mg-t-lg">
@@ -254,16 +252,7 @@ title: Mariage de Mélanie & Vincent
           <div class="blog-wrap">
             <div class="blog-item">
               <div class="blog-head">
-                <img class="blog-image" src="/images/couple/square_01.jpg" alt="...">
-              </div>
-              <div class="blog-body">
-                <h5 class="blog-title">
-                  <a class="text-link" href="#">Memorial from <br>our first dates</a>
-                  <a class="icon-link" href="#">
-                    <i class="fa fa-2x fa-mail-forward"></i>
-                  </a>
-                  <small class="hidden-sm hidden-xxs">2014 January 03.</small>
-                </h5>
+                <img class="blog-image" src="/images/couple/Photo12.jpg" alt="...">
               </div>
             </div>
           </div>
@@ -272,16 +261,7 @@ title: Mariage de Mélanie & Vincent
           <div class="blog-wrap">
             <div class="blog-item">
               <div class="blog-head">
-                <img class="blog-image" src="/images/couple/square_02.jpg" alt="...">
-              </div>
-              <div class="blog-body">
-                <h5 class="blog-title">
-                  <a class="text-link" href="#">Memorial from <br>our first dates</a>
-                  <a class="icon-link" href="#">
-                    <i class="fa fa-2x fa-mail-forward"></i>
-                  </a>
-                  <small class="hidden-sm hidden-xxs">2014 January 03.</small>
-                </h5>
+                <img class="blog-image" src="/images/couple/Photo13.jpg" alt="...">
               </div>
             </div>
           </div>
@@ -290,16 +270,7 @@ title: Mariage de Mélanie & Vincent
           <div class="blog-wrap">
             <div class="blog-item">
               <div class="blog-head">
-                <img class="blog-image" src="/images/couple/square_03.jpg" alt="...">
-              </div>
-              <div class="blog-body">
-                <h5 class="blog-title">
-                  <a class="text-link" href="#">Memorial from <br>our first dates</a>
-                  <a class="icon-link" href="#">
-                    <i class="fa fa-2x fa-mail-forward"></i>
-                  </a>
-                  <small class="hidden-sm hidden-xxs">2014 January 03.</small>
-                </h5>
+                <img class="blog-image" src="/images/couple/Photo14.jpg" alt="...">
               </div>
             </div>
           </div>
@@ -308,72 +279,18 @@ title: Mariage de Mélanie & Vincent
     </div>
   </section>
 
-  <section class="bg-parallax rsvp" data-parallax="scroll" data-image-src="/images/couple/rsvp.jpg" id="rsvp">
+  <section class="bg-parallax rsvp" data-parallax="scroll" data-image-src="/images/pictures/rsvp.jpg" id="rsvp">
     <div class="container">
-      <div class="section-header">
-        <div class="col-xs-12">
-          <h1 class="section-title">Envoyez nous donc votre Rsvp</h1>
-          <div class="separator"></div>
-          <!-- <p class="lead">Lorem ipsum eto dolor sit amet, consectetur elites adipiscing elit morbi volutpat nis molestie rutrum molestie vivamus in cursus dolor colupat eta simeo aenean mattis eto dolor</p> -->
-        </div>
-      </div>
       <div class="row wow fadeInUpBig" data-wow-duration="1.4s">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
           <!-- Change the width and height values to suit you best -->
-          <div class="typeform-widget rsvp-form bg-light" data-url="https://stanboyet.typeform.com/to/ZeW6Xp" data-text="Event Registration" style="width:100%;height:500px;"></div>
+          <div class="typeform-widget rsvp-form bg-light" data-url="https://cofymiammiam.typeform.com/to/CLv5Ea" data-text="Event Registration" style="width:100%;height:500px;"></div>
           <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-          <!-- <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><a href="https://www.typeform.com/examples/forms/event-registration-template/?utm_campaign=ZeW6Xp&amp;utm_source=typeform.com-4618236-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-eventregistration&amp;utm_term=EN" style="color: #999" target="_blank">Event registration form</a>powered by Typeform</div> -->
-          <!-- <div class="rsvp-form bg-light">
-            <form class="mg-t-sm" role="form" method="post" action="php/rsvp.php" id="rsvpForm">
-              <div class="form-group">
-                <label class="sr-only" for="yourName">Your full name</label>
-                <input class="form-control" name="yourName" type="text" id="yourName" placeholder="Your full name" required>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="yourEmail">Your email address</label>
-                <input class="form-control" name="yourMail" type="email" id="yourEmail" placeholder="Your email address" required>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="yourGuests">Number of guests</label>
-                <input class="form-control" name="yourGuests" type="text" id="yourGuests" placeholder="Number of your guests" required>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="yourMessage">Any special request</label>
-                <input class="form-control" name="yourReal" type="hidden" id="yourReal">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="yourMessage" id="yourMessage" placeholder="Any special request" rows="6"></textarea>
-              </div>
-              <div class="submit-wrap">
-                <button class="btn btn-primary btn-lg" type="submit">Submit Rsvp</button>
-              </div>
-              <div id="successMsg" class="hidden">
-                <br>
-                <div class="alert alert-success">
-                  <p>Thanks, your message has been sent!</p>
-                </div>
-              </div>
-            </form>
-          </div> -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- <div class="section bg-white padding-sm">
-    <div class="container">
-      <div class="row text-center-xs">
-        <div class="col-md-9 col-sm-7">
-          <div class="pd-t hidden-lg hidden-md hidden-xs hidden-xxs"></div>
-          <h5 class="no-mg">Lorem ipsum sodales malesuda sed?</h5>
-          <br class="hidden-lg hidden-md hidden-sm">
-        </div>
-        <div class="col-md-3 col-sm-5 wow fadeInRightBig" data-wow-delay="0.6s">
-          <button class="btn btn-default btn-lg no-mg" type="button">Buy Flatlove</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <%= partial :map %>
 
@@ -383,42 +300,4 @@ title: Mariage de Mélanie & Vincent
 
 </div>
 
-<!-- FOOTER
-============================================== -->
-<footer class="footer">
-  <div class="footer-widgets">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-widget">
-          <h4 class="widget-title">Latest posts</h4>
-          <ul class="links list-unstyled">
-            <li><a href="#">Memorial of our first date</a></li>
-            <li><a href="#">The wedding preparations</a></li>
-            <li><a href="#">We love this wedding theme</a></li>
-            <li><a href="#">The long term marriage plan</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4 footer-widget">
-          <h4 class="widget-title">Useful links</h4>
-          <ul class="links list-unstyled">
-            <li><a href="#">Lorem ipsum dolor etiam</a></li>
-            <li><a href="#">Sit amet consescetur elit</a></li>
-            <li><a href="#">Elit etiam massa tior amet</a></li>
-            <li><a href="#">Suspendisse massa dolore</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4 footer-widget">
-          <h4 class="widget-title">Contact us</h4>
-          <ul class="links list-unstyled">
-            <li><i class="fa fa-envelope mg-r-sm"></i><span>wedding@domain.com</span></li>
-            <li><i class="fa fa-phone-square mg-r-sm"></i><span>+662-1149-84 / +662-2353-67</span></li>
-            <li><i class="fa fa-home mg-r-sm"></i><span>121 King Street, Melbourne Victoria 3000, Australia</span></li>
-          </ul>
-          <p class="pd-r-md" style="text-alin: center;">
-            Made with <i class="fa fa-heart-o"></i> in Brussels.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<%= partial :footer %>
