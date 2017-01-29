@@ -12369,3 +12369,6 @@ section, .section {
 
 /* Tabs content
 ---------------------------- */
+.urne {
+  border-radius: 10px;
+  border: 2px solid #9d3449; }
