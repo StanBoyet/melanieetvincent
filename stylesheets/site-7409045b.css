@@ -12372,3 +12372,7 @@ section, .section {
 .urne {
   border-radius: 10px;
   border: 2px solid #9d3449; }
+
+h5 > small.text-muted.event-hour {
+  font-size: 0.8em;
+  color: #666; }
